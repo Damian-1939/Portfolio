@@ -15,8 +15,7 @@ body {
     margin: 0%;
     padding: 0%;
     background-image: url(img/Anime.jpg);
-    background-attachment: fixed;
-    background-size: cover;
+
 }
 
 .nav-list {
@@ -31,6 +30,7 @@ body {
     margin-right: 2rem;
     text-transform: uppercase;
     font-weight: 500;
+    padding: 15px 0;
 }
 
 .nav-item a {
@@ -43,10 +43,10 @@ body {
     margin-left: 2rem;
 }
 .image-container {
-    width: 500px;
+    width: 300px;
     height: 200px;
     overflow: hidden;
-    border-radius: 70%;
+    border-radius: 50%;
 }
 .image-container img {
     width: 100%;
@@ -58,6 +58,67 @@ body {
 h1 {
 font-size: 100px;
 font-weight: 100;
-text-align: left;
-padding: 50px 0;
+text-align: center;
+padding: 10px 0;
+}
+.DrWells {
+    color:#ffffff;
+    margin-left: 40%;
+    margin-right: 25%;
+    font-size: 20px;
+    padding: 50px 0;
+
+}
+h2{
+    font-size: 100px;
+    font-weight: 100;
+    text-align: center;
+    padding: 300px 0;
+}
+.slider {
+    position: relative;
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+    min-height: 100vh;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: monospace;
+}
+.Wolf {
+min-height: 100vh;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: monospace;
+}
+.item{
+position: absolute;
+width: 200px;
+height: 320px;
+text-align: justify;
+background-color: #00e1ff;
+border-radius: 10px;
+padding: 20px;
+transition: 0.5s;
+left: calc(50% - 110px);
+top: 0;
+}
+#next, #prev{
+    position: absolute;
+    top: 40%;
+    color: #00e1ff;
+    background-color: transparent;
+    border: none;
+    font-size: xxx-large;
+    font-family: monospace;
+    font-weight: bold;
+    left: 50px;
+}
+#next{
+    left: unset;
+    right: 50px;
 }
